@@ -24,8 +24,7 @@ function App() {
   }
 
   const toggleComplete = (id) => {
-    //console.log(id);
-    //is it completed or not
+    //console.log(id).;
     setTodos((prev) => 
     prev.map((prevTodo) => 
       prevTodo.id === id ? { ...prevTodo, 
